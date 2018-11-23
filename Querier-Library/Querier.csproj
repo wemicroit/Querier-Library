@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>WeMicroIt.Utils.Querier</RootNamespace>
+    <AssemblyName>WeMicroIt.Utils.Querier</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataBase-Library\DataBase-Library\DataBase-Tools.csproj" />
+    <ProjectReference Include="..\..\web-c#libraries\Global-Models\Resources.csproj" />
+  </ItemGroup>
+
+</Project>

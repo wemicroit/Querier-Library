@@ -2,7 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <RootNamespace>Querier_Library</RootNamespace>
+    <RootNamespace>Querier_</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="VirtualEntities\" />
+  </ItemGroup>
 
 </Project>
