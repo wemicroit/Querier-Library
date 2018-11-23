@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using WeMicroIt.Utils.DataBase.Extensions;
-using WeMicroIt.Utils.Querier.Request;
-using WeMicroIt.Utils.Querier.Response;
+using WeMicroIt.Utils.Resources.Request;
+using WeMicroIt.Utils.Resources.Response;
 
 namespace WeMicroIt.Utils.Querier.Extensions
 {

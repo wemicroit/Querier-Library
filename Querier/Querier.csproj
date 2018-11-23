@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>WeMicroIt.Utils.Querier</RootNamespace>
+    <AssemblyName>WeMicroIt.Utils.Querier</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>James Thompson</Authors>
+    <Version>0.5.0-Beta1</Version>
+    <Company>WeMicroIt</Company>
+    <Product>Querier - Library</Product>
+    <Description>A basic set of functions which can be utilised to manipulate data in a list using Linq Sentax.</Description>
+    <Copyright>2018</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.9" />
+    <PackageReference Include="WeMicroIt.Utils.DataBase" Version="0.5.0-Beta2" />
+    <PackageReference Include="WeMicroIt.Utils.Resources" Version="0.5.0-Beta1" />
+  </ItemGroup>
+
+</Project>
